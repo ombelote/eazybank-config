@@ -2,7 +2,7 @@
     version: "1.0"
 
   accounts:
-    message: "Welcome to EazyBank accounts related default APIs "
+    message: "Welcome to EazyBank accounts related basic APIs "
     contactDetails:
       name: "John Doe - Developer"
       email: "john@eazybank.com"
