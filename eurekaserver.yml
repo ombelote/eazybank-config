@@ -3,6 +3,8 @@ server:
 eureka:
   instance:
     hostname: localhost
+#    fetchRegistry is false because we dont want to fetch the registry details of other microservices
+#    register with Eureka is false because we dont want eureka to register with itself.
   client:
     fetchRegistry: false
     registerWithEureka: false
